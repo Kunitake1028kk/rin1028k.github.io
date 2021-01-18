@@ -8,18 +8,26 @@
     <link rel="stylesheet" href="stylesheet.min.css">
     <link rel="stylesheet" href="stylesheet_mb.min.css">
     <title>rin1028k | 国武凜</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
   </head>
+
   <body>
    <header>
     <div class="header d-flex">
       <div class="header__left d-flex">
         <img src="https://stat.ameba.jp/user_images/20190122/17/ttsverige/57/02/p/o1024076814343346509.png?caw=800" class="header__left__img">
-        <p class="header__left__p">国武　凜</p>
+        <a class="header__left__a">国武　凜</a>
       </div>
       <div class="header__right">
         <div class="icons">
           <a href="https://www.instagram.com/rin1028k/"><i class="fab fa-instagram icon icon--instagram"></i></a>
           <a href="https://www.facebook.com/profile.php?id=100015577573654"><i class="fab fa-facebook-square icon icon--facebook"></i></a>
+        </div>
+        <div class="header__right__menu">
+          <a href="#profile" class="menu">PROFILE</a>
+          <a href="#portfolio" class="menu">PORTFOLIO</a>
+          <a href="#contact" class="menu">お問い合わせ</a>
         </div>
       </div>
     </div>
@@ -31,7 +39,7 @@
       <p class="main1__p">html/cssコーティング</p>
     </div>
 
-    <div class="main2">
+    <div class="main2" id="profile">
 　　　 <h2>PROFILE</h2>
 
       <div class="profiles">
@@ -46,7 +54,7 @@
       </div>
     </div>
 
-    <div class="main3">
+    <div class="main3" id="portfolio">
       <h3>PORTFOLIO</h3>
       <div class="main3__images">
         <div class="portfolio">
@@ -63,7 +71,7 @@
       <aside>※１つ目の作品は既存のサイトを模写したものになります。２つ目、３つ目の作品は架空のサイトです。</aside>
     </div>
 
-    <div class="main4">
+    <div class="main4" id="contact">
       <h4>お問い合わせ</h4>
       <div class="icons">
         <a href="https://www.instagram.com/rin1028k/"><i class="fab fa-instagram icon icon--instagram"></i></a>
@@ -77,5 +85,7 @@
      <p class="footer_p text-white">&copy 2020 rin1028k</p>
 
    </footer>
+
+   <script src="script.js"> </script>
   </body>
 </html>
